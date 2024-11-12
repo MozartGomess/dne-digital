@@ -13,21 +13,21 @@ POST http://localhost:3000/api/auth/login
 Content-Type: application/json
 
 {
-  "email": "renan.alencar@esuda.edu.br",
-  "password": "password123"
+  "email": "17232056@esuda.edu.br",
+  "password": "Thiago123"
 }
 
 ### Retorna todas as carteirinhas (Protegido)
 GET http://localhost:3000/api/students
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3MjE2YzhmNjQ1YzJjZjg4MzVmNGJkMSIsImlhdCI6MTczMDI0Mzc2MCwiZXhwIjoxNzMwMjQ3MzYwfQ.iDV1zYNEzHvPTpVgNjFevEL6gBougbx7a9tc4NUIm_I
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3MmQ0NDQ5ZDA2ZGU2N2U1YzFlY2JlZSIsImlhdCI6MTczMTM2OTU0NCwiZXhwIjoxNzMxMzczMTQ0fQ.qqh3oJb1ryetSkb-ei-zE2L9xi7sXVFuOmECYYPLL3g
 
 ### Cria uma carteirinha (Protegido)
 POST http://localhost:3000/api/students
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3MjE2YzhmNjQ1YzJjZjg4MzVmNGJkMSIsImlhdCI6MTczMDI0Mzc2MCwiZXhwIjoxNzMwMjQ3MzYwfQ.iDV1zYNEzHvPTpVgNjFevEL6gBougbx7a9tc4NUIm_I
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3MmQ0NDQ5ZDA2ZGU2N2U1YzFlY2JlZSIsImlhdCI6MTczMTAyMjkzOCwiZXhwIjoxNzMxMDI2NTM4fQ.157BXUQMn9ErEc-fOH698lwyAqeWRw2n8kB4iF1rl70
 
 {
-  "name": "Renan Costa Alencar",
+  "name": "thiago",
   "cpf": "205.437.760-00",
   "birthDate": "1987-05-15",
   "institution": "Falcudade ESUDA",
